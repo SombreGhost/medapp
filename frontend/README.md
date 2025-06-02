@@ -2,19 +2,21 @@
 
 ## À quoi ça sert ?
 
- MedApp est une appli web pour faciliter la gestion des soins médicaux et la relation entre les patients et les hôpitaux au Sénégal. Elle permet de gérer les rendez-vous, trouver des médecins, faire des téléconsultations, et voir des études médicales (DICOM).
+MedApp est une appli web pour faciliter la gestion des soins médicaux au Sénégal. Elle aide les patients et les hôpitaux à gérer les rendez-vous, trouver des médecins, faire des téléconsultations, et voir des études médicales (DICOM).
 
 ## Ce qui est fait
 
-- **Authentification** : Authentification par mot de passe.
-- **Connexion** : On peut se connecter et voir un message de bienvenue
-- **Gestion de Rendez-vous** : Prendre et liste des rendez-vous 
-- **Carte** : On peut chercher des médecins sur une carte
-- **Téléconsultation** : Liste de médecins pour simuler une consultation (juste une démo).
-- **Études DICOM** : Ajouter et voir des études
-- **Style** : Thème vert, design simple et clair.
+- **Authentification** : Connexion avec mot de passe.
+- **Connexion** : Voir un message de bienvenue (ex. "Jamm ak Jamm, Aminata !").
+- **Gestion de Rendez-vous** : Prendre et voir une liste de rendez-vous.
+- **Carte** : Chercher des médecins sur une carte.
+- **Téléconsultation** : Liste de médecins pour simuler une consultation (démo).
+- **Études DICOM** : Ajouter et voir des études.
+- **Style** : Thème vert, design simple.
 
 ## Structure du Projet
+
+```
 medapp_base/
 ├── frontend/
 │   ├── public/
@@ -29,7 +31,7 @@ medapp_base/
 │   │   │   ├── Telemedicine.jsx     # Téléconsultation
 │   │   │   └── Telemedicine.css
 │   │   ├── pages/
-│   │   │   ├── Dashboard.jsx        # Tableau de bord principal
+│   │   │   ├── Dashboard.jsx        # Tableau de bord
 │   │   │   └── Dashboard.css
 │   │   ├── services/
 │   │   │   └── orthancService.js    # Interaction avec Orthanc
@@ -40,38 +42,86 @@ medapp_base/
 │   │   └── index.css
 │   ├── package.json
 │   └── README.md
+├── backend/
+│   ├── appointments.json
+│   ├── doctors.json
+│   ├── establishments.json
+│   ├── exams.json
+│   ├── users.json
+│   ├── node_modules/
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+└── .gitignore
+```
 
-## Comment tester MedApp
+## Comment accéder et tester MedApp
 
-1. Va dans `C:\Users\dell\Downloads\medapp_base\frontend`.
-2. Installe les dépendances :
+1. Clone le projet depuis GitHub :
 
    ```bash
-   npm install
+   git clone https://github.com/ton-utilisateur/medapp.git
+   cd medapp
    ```
-3. Lance l’appli :
 
-   ```bash
-   npm start
-   ```
-4. Ouvre `http://localhost:3000` dans ton navigateur.
+2. **Pour le frontend** :
 
+   - Va dans le dossier frontend :
 
+     ```bash
+     cd frontend
+     npm install
+     npm start
+     ```
+   - Ouvre `http://localhost:3000`.
 
-## Ce qu’on doit/peut encore faire/update
-- **Notifications** : Rappels pour les rendez-vous
-- **Tableau Admin** : Stats pour les hôpitaux (ex. nombre de rendez-vous).
-- **Assistant Vocal** : Juste une idée pour l’instant, on pourrait ajouter des commandes vocales en wolof/français (ex. "Prendre un rendez-vous avec Dr. Khadija"). On peut même intégrer une IA pour rendre ça plus malin.
-- **Suivi Santé** : Ajouter poids, tension, allergies pour les patients.
-- **Visualisation DICOM** : Pouvoir voir les images médicales directement.
-- **Rôles Utilisateur** : Gérer différents rôles (admin, médecin, patient) pour la connexion. Les médecins pourront ajouter leurs données (ex. spécialité, disponibilité).
+3. **Pour le backend** :
 
-## Plan pour finir en 5 jours (proposition chat huh)
+   - Va dans le dossier backend :
+
+     ```bash
+     cd backend
+     npm install
+     npm start
+     ```
+   - Vérifie que l’API tourne (ex. sur `http://localhost:5000`).
+
+## Comment contribuer
+
+- Fais tes changements.
+- Ajoute tes fichiers :
+
+  ```bash
+  git add .
+  ```
+- Enregistre :
+
+  ```bash
+  git commit -m "Ton message ici"
+  ```
+- Pousse sur GitHub :
+
+  ```bash
+  git push origin main
+  ```
+
+## Ce qu’on doit/peut encore faire
+
+- **Notifications** : Rappels pour les rendez-vous.
+- **Tableau Admin** : Stats pour les hôpitaux.
+- **Assistant Vocal** : Une idée, on pourrait ajouter des commandes vocales en wolof/français (ex. "Prendre un rendez-vous"). On peut intégrer une IA aussi.
+- **Suivi Santé** : Ajouter poids, tension, allergies.
+- **Visualisation DICOM** : Voir les images médicales.
+- **Rôles Utilisateur** : Gérer admin, médecin, patient. Les médecins pourront ajouter leurs données (spécialité, disponibilité).
+
+## Plan pour finir en 5 jours (5-9 juin)
 
 - **5 juin** : Notifications + tableau admin.
 - **6 juin** : Suivi santé + rôles utilisateur.
 - **7 juin** : Visualisation DICOM.
-- **8 juin** : Assistant vocal (ou IA si on a le temps).
+- **8 juin** : Assistant vocal (ou IA si possible).
 - **9 juin** : Tester tout et préparer la démo.
 
 ### 
+
+## 
