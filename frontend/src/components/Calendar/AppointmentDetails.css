@@ -1,0 +1,32 @@
+
+/* client/src/components/Calendar/AppointmentDetails.css */
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.appointment-detail-card {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.appointment-time {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.appointment-doctor {
+  font-size: 1rem;
+}
+
+.appointment-specialty, .appointment-location {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.appointment-notes {
+  font-size: 0.9rem;
+  color: #888;
+}

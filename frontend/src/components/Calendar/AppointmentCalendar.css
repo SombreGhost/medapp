@@ -1,0 +1,96 @@
+
+/* client/src/components/Calendar/AppointmentCalendar.css */
+.calendar-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.current-month {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.month-nav-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #1abc9c;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.weekday-header {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #666;
+  padding: 5px;
+}
+
+.calendar-day {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+
+.has-appointments {
+  color: white;
+  font-weight: bold;
+}
+
+.bg-blue-500 { background-color: #3498db; }
+.bg-orange-500 { background-color: #f39c12; }
+.bg-green-500 { background-color: #2ecc71; }
+.bg-red-500 { background-color: #e74c3c; }
+.bg-purple-500 { background-color: #9b59b6; }
+.bg-teal-500 { background-color: #1abc9c; }
+.bg-amber-700 { background-color: #c68642; }
+.bg-gray-500 { background-color: #95a5a6; }
+
+.selected {
+  background-color: #e0e0e0 !important;
+}
+
+.appointment-panel {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-panel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.panel-date {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

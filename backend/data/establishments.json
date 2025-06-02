@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Clinique la providence",
+    "address": "15 Rue de la Paix, 75002 Paris",
+    "location": {
+      "lat": 48.856614,
+      "lng": 2.3522219
+    },
+    "phone": "01 23 45 67 89"
+  },
+  {
+    "id": "2",
+    "name": "Hôpital Central",
+    "address": "5 Avenue des Champs-Élysées, 75008 Paris",
+    "location": {
+      "lat": 48.8584,
+      "lng": 2.3536
+    },
+    "phone": "01 23 45 67 90"
+  },
+  {
+    "id": "3",
+    "name": "Centre Médical Saint-Louis",
+    "address": "10 Boulevard Saint-Germain, 75006 Paris",
+    "location": {
+      "lat": 48.8546,
+      "lng": 2.3477
+    },
+    "phone": "01 23 45 67 91"
+  },
+  {
+    "id": "4",
+    "name": "Cabinet Médical Pasteur",
+    "address": "25 Rue de Rivoli, 75004 Paris",
+    "location": {
+      "lat": 48.8605,
+      "lng": 2.3501
+    },
+    "phone": "01 23 45 67 92"
+  }
+]

@@ -1,0 +1,27 @@
+/* client/src/pages/RegisterPage.css */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  /* Reuse styles from LoginPage.css since they are identical */
+  .register-page .auth-container,
+  .register-page .auth-header,
+  .register-page .auth-header h2,
+  .register-page .auth-header p,
+  .register-page .auth-error,
+  .register-page .auth-form,
+  .register-page .form-group label,
+  .register-page .form-group input,
+  .register-page .auth-button,
+  .register-page .auth-button:hover,
+  .register-page .auth-button:disabled,
+  .register-page .auth-switch,
+  .register-page .switch-button,
+  .register-page .switch-button:hover {
+    /* Inherit styles from LoginPage.css */
+  }

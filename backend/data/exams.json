@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "type": "Pédiatrie",
+    "description": "Hépatite C Screening",
+    "date": "2025-03-10",
+    "createdAt": "2025-03-10T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "userId": "1",
+    "type": "Cardiologie",
+    "description": "Cardiac CT scan",
+    "date": "2025-02-02",
+    "createdAt": "2025-02-02T10:00:00Z"
+  },
+  {
+    "id": "3",
+    "userId": "1",
+    "type": "Cardiologie",
+    "description": "Echocardiogram",
+    "date": "2025-02-23",
+    "createdAt": "2025-02-23T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "userId": "1",
+    "type": "Gynécologie",
+    "description": "Cervical cancer testing",
+    "date": "2025-03-17",
+    "createdAt": "2025-03-17T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "userId": "1",
+    "type": "Endocrinologie",
+    "description": "Fine needle aspiration",
+    "date": "2025-05-10",
+    "createdAt": "2025-05-10T10:00:00Z"
+  }
+]

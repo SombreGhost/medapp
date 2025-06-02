@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Khadija Mbaye",
+    "specialty": "Cardiologue",
+    "location": "Hôpital Général de Grand Yoff, Dakar",
+    "coordinates": { "lat": 14.7167, "lng": -17.4333 }
+  },
+  {
+    "id": 2,
+    "name": "Dr. Samba Thiam",
+    "specialty": "Pédiatre",
+    "location": "Clinique Nabil Choucair, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 3,
+    "name": "Dr. Fatimata Sy",
+    "specialty": "Gynécologue",
+    "location": "Hôpital de Pikine, Dakar",
+    "coordinates": { "lat": 14.7645, "lng": -17.3944 }
+  },
+  {
+    "id": 4,
+    "name": "Dr. Abdoulaye Faye",
+    "specialty": "Dentiste",
+    "location": "Centre Médical de Rufisque, Rufisque",
+    "coordinates": { "lat": 14.7158, "lng": -17.2733 }
+  },
+  {
+    "id": 5,
+    "name": "Dr. Aissatou Sow",
+    "specialty": "Dermatologue",
+    "location": "Hôpital Principal de Dakar, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 6,
+    "name": "Dr. Ibrahima Ndiaye",
+    "specialty": "Ophtalmologue",
+    "location": "Clinique de l'Œil, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 7,
+    "name": "Dr. Marième Diop",
+    "specialty": "Médecin généraliste",
+    "location": "Centre de Santé de Mermoz, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 8,
+    "name": "Dr. Ousmane Ba",
+    "specialty": "Neurologue",
+    "location": "Hôpital de Fann, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 9,
+    "name": "Dr. Aminata Diallo",
+    "specialty": "Endocrinologue",
+    "location": "Hôpital de l'Amitié, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  },
+  {
+    "id": 10,
+    "name": "Dr. Cheikh Fall",
+    "specialty": "Orthopédique",
+    "location": "Hôpital de Dakar, Dakar",
+    "coordinates": { "lat": 14.6928, "lng": -17.4467 }
+  }
+]

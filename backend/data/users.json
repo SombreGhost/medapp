@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1744700830102",
+    "email": "test@esp.sn",
+    "password": "$2a$10$f4hmBUgMwBrYTLA88JD.5uDRa78vS/KItb/ZVvbtGCeUcsn6NDIdK",
+    "fullName": "Ali khan",
+    "dateOfBirth": "2010-01-01",
+    "createdAt": "2025-04-15T07:07:10.102Z",
+    "phone": "",
+    "address": "",
+    "updatedAt": "2025-04-22T08:57:46.996Z"
+  }
+]

@@ -1,0 +1,11 @@
+/* frontend/src/pages/DashboardPage.css */
+.dashboard-page {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-page {
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,109 @@
+.telemedicine {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-in;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+.telemedicine-info {
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.doctor-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doctor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.doctor-item:hover {
+  transform: translateY(-3px);
+}
+
+.doctor-details {
+  flex: 1;
+}
+
+.doctor-details strong {
+  color: #333;
+}
+
+.doctor-details br {
+  margin-bottom: 5px;
+}
+
+.consult-button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consult-button:hover {
+  background-color: #45a049;
+}
+
+.consult-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+  @media (max-width: 768px) {
+    .doctor-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .doctor-item .consult-button {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 1.2rem;
+    }
+
+    .telemedicine-info {
+      font-size: 0.9rem;
+    }
+
+    .doctor-item {
+      padding: 10px;
+    }
+
+    .doctor-item .consult-button {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+  }

@@ -1,0 +1,117 @@
+/* client/src/pages/Dashboard/Home.css */
+.dashboard-home {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .welcome-header {
+    margin-bottom: 30px;
+  }
+  
+  .welcome-header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .current-date {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .error-message {
+    color: #ff4444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .recent-exams, .upcoming-appointments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .recent-exam-card, .appointment-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+    transition: transform 0.2s;
+  }
+  
+  .recent-exam-card:hover, .appointment-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .exam-date, .appointment-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .exam-type, .doctor-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .exam-description, .appointment-specialty, .appointment-location {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .appointment-time {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .view-all-button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-all-button:hover {
+    background-color: #16a085;
+  }
+  
+  .no-data {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .calendar-section, .map-section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+  }

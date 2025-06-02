@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "doctorId": "1",
+    "doctorName": "Dr. Aminata Ndiaye Traore",
+    "specialty": "Gynécologie",
+    "establishment": "Clinique la providence",
+    "date": "2025-04-09",
+    "time": "09:30",
+    "notes": "",
+    "status": "scheduled",
+    "createdAt": "2025-04-01T10:00:00Z"
+  }
+]

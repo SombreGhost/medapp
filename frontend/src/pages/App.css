@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  color: #1f2d3d;
+}
+
+.navbar {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.course-card {
+  background-color: white;
+  border: 1px solid #d1e3f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 119, 204, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+}
+
+.course-card h3 {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
